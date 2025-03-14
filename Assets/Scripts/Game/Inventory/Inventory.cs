@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     private void Update()
     {
         Debug.Log("I'm worcking");
-        if (Input.GetKeyDown(KeyCode.E)) 
+        if (Input.GetKeyDown(KeyCode.Tab)) 
         {
             Debug.Log("E press");
             if (!inventory_interface.activeSelf)
