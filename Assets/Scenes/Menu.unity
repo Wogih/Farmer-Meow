@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 5
+  m_ScrollSensitivity: 25
   m_Viewport: {fileID: 299575056}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1547276849}
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 2130557427}
   load_interface: {fileID: 419788784}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &34773187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 2130557427}
   load_interface: {fileID: 419788784}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &146252513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1410,6 +1410,7 @@ GameObject:
   - component: {fileID: 539680133}
   - component: {fileID: 539680132}
   - component: {fileID: 539680131}
+  - component: {fileID: 539680135}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1505,6 +1506,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &539680135
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539680130}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &589225489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +1850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 1534548932}
   load_interface: {fileID: 817300596}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!1 &691887531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,7 +2451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 2031057003}
   load_interface: {fileID: 817300596}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &1025357414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2600,7 +2613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 1016049011}
   load_interface: {fileID: 1534548932}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &1045610913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3208,7 +3221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 1534548932}
   load_interface: {fileID: 627961195}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!1 &1254797549
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,7 +3370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 627961195}
   load_interface: {fileID: 1534548932}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &1254797555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4466,7 +4479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 817300596}
   load_interface: {fileID: 1534548932}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &1675376315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5121,7 +5134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 1534548932}
   load_interface: {fileID: 1016049011}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!114 &1904063594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5750,12 +5763,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!114 &2113563284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6284,7 +6297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unload_interface: {fileID: 419788784}
   load_interface: {fileID: 2130557427}
-  animation_duration: 0.5
+  animation_duration: 0.7
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
